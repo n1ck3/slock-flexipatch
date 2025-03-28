@@ -35,7 +35,7 @@
  * The background image patch takes precedence over this patch.
  * https://tools.suckless.org/slock/patches/blur-pixelated-screen/
  */
-#define BLUR_PIXELATED_SCREEN_PATCH 0
+#define BLUR_PIXELATED_SCREEN_PATCH 1
 
 /* This patch introduces an additional color to indicate the state of Caps Lock.
  * https://tools.suckless.org/slock/patches/capscolor/
@@ -142,4 +142,4 @@
 /* This patch adds the ability to get colors via Xresources.
  * https://tools.suckless.org/slock/patches/xresources/
  */
-#define XRESOURCES_PATCH 0
+#define XRESOURCES_PATCH 1

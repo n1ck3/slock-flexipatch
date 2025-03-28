@@ -1,6 +1,6 @@
 /* user and group to drop privileges to */
 static const char *user  = "nobody";
-static const char *group = "nogroup"; // use "nobody" for arch
+static const char *group = "nobody"; // use "nobody" for arch
 
 static const char *colorname[NUMCOLS] = {
 	#if DWM_LOGO_PATCH && !BLUR_PIXELATED_SCREEN_PATCH
@@ -121,13 +121,13 @@ static const secretpass scom[] = {
 
 #if BLUR_PIXELATED_SCREEN_PATCH
 /* Enable blur */
-#define BLUR
+//#define BLUR
 /* Set blur radius */
 static const int blurRadius = 5;
 /* Enable Pixelation */
-//#define PIXELATION
+#define PIXELATION
 /* Set pixelation radius */
-static const int pixelSize = 10;
+static const int pixelSize = 15;
 #endif // BLUR_PIXELATED_SCREEN_PATCH
 
 #if CONTROLCLEAR_PATCH
